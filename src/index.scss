@@ -1,0 +1,67 @@
+body {
+    background-color: #e2afde;
+}
+
+h1 {
+    color: #181618;
+    font-size: 50px;
+}
+
+h2 {
+    color: #170991;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+
+    transition-property: transform;
+    transition-duration: 0.5s;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+
+    &.buttonArrow {
+        color: #31ac0c;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+p {
+    font-size: 20px;
+}
+
+h1, h2, h3, p {
+    font-family: monospace;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+
+    &.singlePersonWrapper {
+        background-color: #ffffff;
+        border: 5px solid black;
+        border-radius: 15px;
+        margin-left: 1vw;
+    }
+}
+
+button {
+    background: transparent;
+    border: none;
+    margin: 0 auto;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
